@@ -2,10 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <locale.h>
-
-// Seu programa compila e fecha bem depois quando eu adiciono os arquivos .c
-// Veja o que está acontecendo ou converse com Thiago para solucionar esses erros de biblioteca
-// O certo é adicionar o arquivo .h e não o arquivo .c
 #include "contato.h"
 #include "interacao.h"
 #include "agenda.h"
@@ -15,8 +11,8 @@
 #define OP4 "Buscar contato"
 #define OP5 "Listar contatos"
 #define OP6 "Sair do programa"
-#define APRESENTACAO "\n\nBem-vind@ a lista telefônica virtual.\nAuthor: Déborah Assunção da Silva Alves\nDate: 10/05/2017"
-#define DESPEDIDA "\n\t\tObrigad@, espero ter sido útil.\n\n"
+#define APRESENTACAO "\n\nBem-vind@ a lista telefÃ´nica virtual.\nAuthor: DÃ©borah AssunÃ§Ã£o da Silva Alves\nDate: 10/05/2017"
+#define DESPEDIDA "\n\t\tObrigad@, espero ter sido Ãºtil.\n\n"
 
 int main(void)
 {
